@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Rohan Ahmad — Computer Science Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Muhammad Rohan Ahmad, Computer Science student, WordPress developer, and front-end developer." />
+  <meta name="author" content="Muhammad Rohan Ahmad" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Muhammad Rohan Ahmad — Computer Science Student & Web Developer" />
+  <meta property="og:description" content="Computer Science student, WordPress developer, and front-end developer building clean, responsive websites." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts: Fraunces (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">MR<span>.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text reveal">
+          <p class="hero-kicker">Hi, I'm Muhammad Rohan Ahmad</p>
+          <h1 class="hero-title">
+            Computer Science Student &amp; Web Developer
+          </h1>
+          <p class="hero-desc">
+            I build clean, responsive websites as a WordPress and front-end developer, turning ideas into digital experiences that are both functional and easy to use.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-outline">Contact me</a>
+            <a href="resume/CV.pdf" class="btn btn-ghost" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <div class="hero-frame">
+            <img src="assets/images/profile.jpg" alt="Portrait of Muhammad Rohan Ahmad" class="hero-img" onerror="this.parentElement.classList.add('img-fallback')" />
+            <div class="hero-frame-mark" aria-hidden="true">01</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section about">
+      <div class="section-head reveal">
+        <p class="section-kicker">About</p>
+        <h2 class="section-title">A little about who I am</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-media reveal">
+          <div class="about-frame">
+            <img src="assets/images/about.jpg" alt="Muhammad Rohan Ahmad" onerror="this.parentElement.classList.add('img-fallback')" />
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="about-bio">
+            I'm a Computer Science student, WordPress developer, and front-end developer passionate about building clean, responsive, and user-friendly websites. I enjoy transforming ideas into engaging digital experiences using WordPress, HTML, CSS, and JavaScript. I'm constantly learning, experimenting with new technologies, and improving my development skills through real-world projects. My goal is to grow as a professional developer and create web solutions that are both visually appealing and functional.
+          </p>
+
+          <div class="about-columns">
+            <div>
+              <h3>Interests</h3>
+              <ul class="plain-list">
+                <li>Building websites with WordPress</li>
+                <li>Front-end development &amp; UI/UX</li>
+                <li>Programming &amp; problem solving</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Currently focused on</h3>
+              <ul class="plain-list">
+                <li>Sharpening front-end fundamentals</li>
+                <li>Data structures &amp; algorithms</li>
+                <li>Real-world WordPress projects</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="stat-cards">
+            <div class="stat-card">
+              <span class="stat-number" data-count="8">0</span>
+              <span class="stat-label">Core skills learned</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="2">0</span>
+              <span class="stat-label">Years learning to code</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="3">0</span>
+              <span class="stat-label">Programming languages</span>
+            </div>
+            <div class="stat-card stat-card-text">
+              <span class="stat-label">Current focus</span>
+              <span class="stat-focus">WordPress &amp; front-end development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section skills">
+      <div class="section-head reveal">
+        <p class="section-kicker">Skills</p>
+        <h2 class="section-title">Tools I build with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Web Development</h3>
+          <ul class="skill-list">
+            <li><span>HTML5</span></li>
+            <li><span>CSS3</span></li>
+            <li><span>JavaScript</span></li>
+            <li><span>Responsive Web Design</span></li>
+            <li><span>UI/UX Basics</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>WordPress</h3>
+          <ul class="skill-list">
+            <li><span>WordPress Development</span></li>
+            <li><span>WordPress Customization</span></li>
+            <li><span>Theme Customization</span></li>
+            <li><span>Plugin Management</span></li>
+            <li><span>Website Optimization</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Programming</h3>
+          <ul class="skill-list">
+            <li><span>C++</span></li>
+            <li><span>Python</span></li>
+            <li><span>Object-Oriented Programming</span></li>
+            <li><span>Data Structures &amp; Algorithms</span></li>
+            <li><span>SQL / Database Management</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Tools &amp; Platforms</h3>
+          <ul class="skill-list">
+            <li><span>Git &amp; GitHub</span></li>
+            <li><span>Visual Studio Code</span></li>
+            <li><span>MySQL</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="section services">
+      <div class="section-head reveal">
+        <p class="section-kicker">Services</p>
+        <h2 class="section-title">What I can help with</h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M8 5 3 12l5 7M16 5l5 7-5 7M13 4l-2 16" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3>Web development</h3>
+          <p>Building fast, well-structured websites from scratch using clean HTML, CSS, and JavaScript.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <circle cx="12" cy="12" r="9"/>
+              <path d="M8.5 12.5 L11 15 L16 9" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3>WordPress development</h3>
+          <p>Setting up, customizing, and optimizing WordPress sites — themes, plugins, and performance.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <rect x="3" y="4" width="18" height="14" rx="1.5"/>
+              <path d="M8 21h8M12 18v3" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <h3>Frontend development</h3>
+          <p>Turning designs into working interfaces with attention to detail, structure, and performance.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="12" r="9"/>
+            </svg>
+          </span>
+          <h3>UI/UX design</h3>
+          <p>Designing layouts that are easy to use and pleasant to look at, with a clear visual hierarchy.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section projects">
+      <div class="section-head reveal">
+        <p class="section-kicker">Projects</p>
+        <h2 class="section-title">Things I've built</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/images/project-1.jpg" alt="[PROJECT 1 NAME] preview" onerror="this.parentElement.classList.add('img-fallback')" />
+          </div>
+          <div class="project-body">
+            <h3>[PROJECT 1 NAME]</h3>
+            <p>[PROJECT 1 DESCRIPTION — add details about a WordPress site, a front-end project, or a coding project you've built.]</p>
+            <ul class="tag-list">
+              <li>[TECH]</li><li>[TECH]</li><li>[TECH]</li>
+            </ul>
+            <div class="project-links">
+              <a href="[PROJECT 1 GITHUB URL]" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+              <a href="[PROJECT 1 LIVE DEMO URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/images/project-2.jpg" alt="[PROJECT 2 NAME] preview" onerror="this.parentElement.classList.add('img-fallback')" />
+          </div>
+          <div class="project-body">
+            <h3>[PROJECT 2 NAME]</h3>
+            <p>[PROJECT 2 DESCRIPTION]</p>
+            <ul class="tag-list">
+              <li>[TECH]</li><li>[TECH]</li><li>[TECH]</li>
+            </ul>
+            <div class="project-links">
+              <a href="[PROJECT 2 GITHUB URL]" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+              <a href="[PROJECT 2 LIVE DEMO URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/images/project-3.jpg" alt="[PROJECT 3 NAME] preview" onerror="this.parentElement.classList.add('img-fallback')" />
+          </div>
+          <div class="project-body">
+            <h3>[PROJECT 3 NAME]</h3>
+            <p>[PROJECT 3 DESCRIPTION]</p>
+            <ul class="tag-list">
+              <li>[TECH]</li><li>[TECH]</li><li>[TECH]</li>
+            </ul>
+            <div class="project-links">
+              <a href="[PROJECT 3 GITHUB URL]" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+              <a href="[PROJECT 3 LIVE DEMO URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/images/project-4.jpg" alt="[PROJECT 4 NAME] preview" onerror="this.parentElement.classList.add('img-fallback')" />
+          </div>
+          <div class="project-body">
+            <h3>[PROJECT 4 NAME]</h3>
+            <p>[PROJECT 4 DESCRIPTION]</p>
+            <ul class="tag-list">
+              <li>[TECH]</li><li>[TECH]</li><li>[TECH]</li>
+            </ul>
+            <div class="project-links">
+              <a href="[PROJECT 4 GITHUB URL]" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+              <a href="[PROJECT 4 LIVE DEMO URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section education">
+      <div class="section-head reveal">
+        <p class="section-kicker">Education</p>
+        <h2 class="section-title">Academic background</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Bachelor of Science in Computer Science (BSCS)</h3>
+            <p class="timeline-meta">Lahore Garrison University · Fall 2024 – Present</p>
+            <p>Currently pursuing a Bachelor's degree in Computer Science, with a focus on programming, web development, databases, data structures, and software development.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Intermediate</h3>
+            <p class="timeline-meta">GCU · 2022 – 2024</p>
+          </div>
+        </li>
+
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Matriculation</h3>
+            <p class="timeline-meta">SEI CAS</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ================= EXPERIENCE / ACHIEVEMENTS ================= -->
+    <section id="experience" class="section experience">
+      <div class="section-head reveal">
+        <p class="section-kicker">Experience</p>
+        <h2 class="section-title">Experience &amp; achievements</h2>
+      </div>
+
+      <div class="experience-grid">
+        <div class="experience-card reveal">
+          <h3>Experience</h3>
+          <p class="placeholder-note">[Add internships, freelance work, or university projects here — e.g. WordPress sites you've built for clients or coursework.]</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <h3>Certifications</h3>
+          <p class="placeholder-note">[List any certifications here, e.g. online courses completed. Remove this card if you have none yet.]</p>
+        </div>
+
+        <div class="experience-card reveal">
+          <h3>Achievements</h3>
+          <p class="placeholder-note">[List hackathon results, competitions, awards, or milestones here.]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact">
+      <div class="section-head reveal">
+        <p class="section-kicker">Contact</p>
+        <h2 class="section-title">Let's work together</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-lead">Have a project in mind or just want to say hi? My inbox is open.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:m.rohan.ahmad143@gmail.com">m.rohan.ahmad143@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+923010044007">+92 301 0044007</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/mrohan143" target="_blank" rel="noopener">github.com/mrohan143</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/muhammad-rohan-ahmad-a39776409/" target="_blank" rel="noopener">linkedin.com/in/muhammad-rohan-ahmad</a>
+            </li>
+            <li>
+              <span class="contact-label">Instagram</span>
+              <a href="https://www.instagram.com/blue_devilrr" target="_blank" rel="noopener">@blue_devilrr</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send message</button>
+
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">MR<span>.</span></a>
+        <p>Muhammad Rohan Ahmad — Computer Science Student &amp; Web Developer. Building clean, usable interfaces one project at a time.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="https://github.com/mrohan143" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/muhammad-rohan-ahmad-a39776409/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/blue_devilrr" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="mailto:m.rohan.ahmad143@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Muhammad Rohan Ahmad. All rights reserved.</p>
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
